@@ -1,0 +1,25 @@
+---
+abstract: 'An extension to Fey for active tables'
+author:
+  - 'Stevan Little <stevan.little@iinteractive.com>'
+build_requires:
+  DBD::SQLite: 0
+  DBI: 0
+  Test::Exception: 0.21
+  Test::More: 0.62
+distribution_type: module
+generated_by: 'Module::Install version 0.71'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: FeyX-Active
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Fey: 0
+  Fey::DBIManager: 0
+tests: t/*.t
+version: 0.01
